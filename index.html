@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Free Condoms</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Load Leaflet CSS -->
+    <link
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      rel="stylesheet"
+    />
+
+    <!-- Load our styles -->
+    <link href="./styles.css" rel="stylesheet" />
+
+    <!-- Load Leaflet and Carto libraries -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://libs.cartocdn.com/carto.js/v4.2.0/carto.min.js"></script>
+
+    <!-- Load our JavaScript -->
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <center>
+      <h1>FANTASTIC SHEATHS AND WHERE TO FIND THEM</h1>
+      <img
+        src="https://cdn.glitch.com/f7c722f8-4856-437b-b662-7c23f4bfd09a%2Fimage0.jpeg?v=1582124697714"
+        height="200"
+        width="350"
+      />
+      <p>
+        <strong
+          >You don't need magic to access safer sex products in NYC. Find your
+          nearest condom distribution location using the map below!</strong
+        >
+      </p>
+      <div class="mapwrapper">
+        <div id="map"></div>
+        <select class="layer-picker">
+          <option value="all">All partner types</option>
+          <option value="Business">Business</option>
+          <option value="Community-based Organization/Non-Profit"
+            >Community-based Organization/Non-Profit</option
+          >
+          <option value="Community Health Center">Community Health Center</option>
+          <option value="Pharmacy">Pharmacy</option>
+          <option value="Hospital">Hospital</option>
+          <option value="Government">Government</option>
+          <option value="Private Practice">Private Practice</option>
+          <option value="Education">Education</option>
+          <option value="Sexual Health Clinic">Sexual Health Clinic</option>
+          <option value="Faith-Based Organization">Faith-Based Organization</option>
+        </select>
+      </div>
+      <p>
+        <strong
+          >Got condoms? Need help with them? Check out NYC Gov's
+          <a
+            href="https://www1.nyc.gov/assets/doh/downloads/pdf/condoms/condoms-dos-donts.pdf"
+            target="_blank"
+            >do's and don'ts</a
+          >
+          of condom use.</strong
+        >
+      </p>
+    </center>
+
+    <p class="sourcetag">
+      Created by La Rainne Pasion for Advanced GIS, Spring 2020
+    </p>
+  </body>
+</html>
