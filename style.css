@@ -1,0 +1,63 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: Arial;
+  background-image: url(https://cdn.glitch.com/f7c722f8-4856-437b-b662-7c23f4bfd09a%2F50684523-black-space-with-many-stars-seamless-pattern-texture-background.jpg?v=1582130587131);
+  background-repeat: repeat;
+}
+h1 {
+  color: #D4AF37;
+  font-family: arial;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h2 {
+  color: black;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+p {
+  color: #D4AF37;
+  font-family: Arial
+  font-size: 15px;
+}
+
+a {
+  color: black;
+  background: #D4AF37;
+}
+
+img {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+p.sourcetag {
+  color: #D4AF37;
+  float:left;
+  text-align: left;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.mapwrapper {
+  position:relative;
+  height: 100vh;
+  width: 85%;
+}
+
+#map {
+  height: 100vh;
+  width: 85%;
+}
+
+.layer-picker {
+  position: absolute;
+  right: 100px;
+  top: 15px;
+  z-index: 5000;
+}
