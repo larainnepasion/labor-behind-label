@@ -1,37 +1,14 @@
-Welcome to Glitch
-=================
+# The Labor Behind the Label
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+## About
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+This project was created for a course on "Advanced GIS for International Crises, Development and the Environment." Its aim is to encourage viewers to think about where their clothes are made and consider the labor conditions experienced by garment workers around the world.
 
-Find out more [about Glitch](https://glitch.com/about).
+## Technologies
+- JavaScript
+- SQL
+- CARTO Maps API
 
+## Future plans
 
-Your Project
-------------
-
-### ← README.md
-
-That's this file, where you can tell people what your cool website does and how you built it.
-
-### ← index.html
-
-Where you'll write the content of your website. 
-
-### ← style.css
-
-CSS files add styling rules to your content.
-
-### ← script.js
-
-If you're feeling fancy you can add interactivity to your site with JavaScript.
-
-### ← assets
-
-Drag in `assets`, like images or music, to add them to your project
-
-Made by [Glitch](https://glitch.com/)
--------------------
-
-\ ゜o゜)ノ
+I'm currently working on expanding this project to include other clothing brands that make their manufacturing data publicly available, such as [Nike](https://manufacturingmap.nikeinc.com/#). My hope is to provide an insightful overview on where popular brands source their products and for consumers to interrogate the ethics of their wardrobe.
